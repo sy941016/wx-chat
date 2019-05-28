@@ -1,13 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/chat/chat"
   ],
-  "window":{
-    "backgroundTextStyle":"dark",
+  "window": {
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#eee",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"black",
-    "navigationStyle":"default"
-  }
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "sitemapLocation": "sitemap.json"
 }

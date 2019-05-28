@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.0",
 	"appid": "wx19e31113b3704755",
-	"projectname": "chat",
+	"projectname": "wx-chat",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
