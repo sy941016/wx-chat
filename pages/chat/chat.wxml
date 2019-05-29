@@ -58,7 +58,7 @@
 <!-- 聊天输入 -->
 <view class="message">
   <form bindreset="cleanInput" class="sendMessage">
-    <input type="text" placeholder="请输入聊天内容.." value="{{message}}" bindinput='bindChange'>
+    <input type="text" placeholder="请输入聊天内容.." value="{{message}}" bindinput='bindChange'></input>
     <view class="add" bindtap='increase'>+</view>
     <button type="primary" bindtap='send' formType="reset" size="small" button-hover="blue">发送</button>
   </form>
