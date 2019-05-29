@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/bmap/bmap",
     "pages/index/index",
+    "pages/bmap/bmap",
     "pages/chat/chat"
   ],
   "permission": {
