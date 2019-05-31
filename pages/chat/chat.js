@@ -143,7 +143,7 @@ Page({
             wx.pageScrollTo({
                 scrollTop: res[0].bottom // #the-id节点的下边界坐标
             })
-            res[1].scrollTop // 显示区域的竖直滚动位置
+            console.log(res[1].scrollTop) // 显示区域的竖直滚动位置
         })
     }
 })
