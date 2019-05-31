@@ -1,5 +1,5 @@
 // websocket---chat
-var url = 'ws://.......';
+var url = 'ws://192.168.0.66:8080';
 
 function connect(user, func) {
     wx.connectSocket({
