@@ -1,0 +1,13 @@
+<view class='container'>
+  <view class='timing-title'>距离下一轮还有</view>
+  <view class="timing-box">
+    <view class="timing">{{countDownDay}}</view>
+    <view class="unit">天</view>
+    <view class="timing">{{countDownHour}}</view>
+    <view class="unit">时</view>
+    <view class="timing">{{countDownMinute}}</view>
+    <view class="unit">分</view>
+    <view class="timing">{{countDownSecond}}</view>
+    <view class="unit">秒</view>
+  </view>
+</view>

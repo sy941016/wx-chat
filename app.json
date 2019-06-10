@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/timing/timing",
     "pages/index/index",
     "pages/bmap/bmap",
     "pages/chat/chat"
@@ -32,6 +33,12 @@
         "iconPath": "images/map.png",
         "pagePath": "pages/bmap/bmap",
         "text": "地图"
+      },
+      {
+        "selectedIconPath": "images/shouye_click.png",
+        "iconPath": "images/shouye.png",
+        "pagePath": "pages/timing/timing",
+        "text": "计时"
       }
     ]
   },
