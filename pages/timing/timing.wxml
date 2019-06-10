@@ -1,4 +1,7 @@
 <view class='container'>
+  <form name='pushMsgFm' report-submit="true" bindsubmit='template_Msg'>
+    <button form-type="submit" type='primary'>发送模板消息</button>
+  </form>
   <view class='timing-title'>距离下一轮还有</view>
   <view class="timing-box">
     <view class="timing">{{countDownDay}}</view>
