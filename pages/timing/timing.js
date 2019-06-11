@@ -43,8 +43,7 @@ Page({
             template_id: 'L4ZPIRNUNXuDBd8dRKl4PtdXheYmZ6-QwykLSDwq5S0', //申请的模板消息id，  
             page: '/pages/timing/timing',
             form_id: fId,
-            data: push_content,
-            color: '#ccc'
+            data: push_content
           },
           method: 'POST',
           success: function(res) {
@@ -54,7 +53,7 @@ Page({
           },
           fail: function(err) {
             // fail  
-            console.log("push err")
+            console.log("发送失败")
             console.log(err);
           }
         })
