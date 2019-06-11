@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/timing/timing",
     "pages/index/index",
+    "pages/timing/timing",
     "pages/bmap/bmap",
     "pages/chat/chat"
   ],

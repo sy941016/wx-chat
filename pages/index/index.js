@@ -6,14 +6,8 @@ Page({
     data: {
         userInfo: {},
         hasUserInfo: false,
-        canIUse: wx.canIUse('button.open-type.getUserInfo')
+        canIUse: wx.canIUse('button.open-type.getUserInfo')//判断小程序的API，回调，参数，组件等是否在当前版本可用
     },
-    //事件处理函数
-    // bindViewTap: function() {
-    //   wx.navigateTo({
-    //     url: '../chat/chat'
-    //   })
-    // },
     toChat: function () {
         wx.navigateTo({
             url: '../chat/chat'

@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <view class="container">
     <view class="userinfo">
-        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击获取我的昵称
+        <!--open-type="getUserInfo"	获取用户信息，可以从bindgetuserinfo回调中获取到用户信息-->
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击获取我的信息
         </button>
         <block wx:else>
             <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
