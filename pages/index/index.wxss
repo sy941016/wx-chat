@@ -19,3 +19,29 @@
   font-size: 35rpx;
   margin: 40rpx 0;
 }
+/* 蒙层 */
+.popup_shadow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: #fff;
+}
+/* 弹框盒子 */
+.bottom_popup {
+    width: 100%;
+    height:300rpx;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    transform: translateY(400px);
+    text-align:center;
+    line-height: 300rpx;
+    color:red;
+    font-weight: 800;
+}

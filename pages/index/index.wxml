@@ -12,4 +12,7 @@
     <view bindtap="toChat">
         <button class="chat"> 点击进入聊天</button>
     </view>
+    <button class="chat" bindtap="show_modal"> 蒙层</button>
 </view>
+<view class="popup_shadow"  hidden="{{!showModalStatus}}" bindtap="hide_modal"></view>
+<view animation="{{animationData}}" class="bottom_popup">我是谁</view>
