@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/timing/timing",
     "pages/bmap/bmap",
+    "pages/timing/timing",
     "pages/chat/chat"
   ],
   "permission": {

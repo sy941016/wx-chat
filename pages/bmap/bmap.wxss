@@ -1,12 +1,46 @@
-page{
-  height:100%;
+page {
+  height: 100%;
 }
-.map_container{ 
-    height: 666rpx; 
-    width: 100%; 
-} 
 
-.map { 
-    height: 100%; 
-    width: 100%; 
-} 
+text {
+  color: red;
+}
+
+.map_container {
+  height: 444rpx;
+  width: 100%;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.wc-title {
+  text-align: center;
+  height: 50rpx;
+  margin-top: 50rpx;
+  font-size: 30rpx;
+}
+
+.wc-title image {
+  width: 50rpx;
+  height: 100%;
+}
+
+.place_info {
+  margin-top: 50rpx;
+}
+
+.place_info view {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.place_info view>image{
+  width: 50rpx;
+  height:50rpx;
+  margin-right:20rpx;
+}
