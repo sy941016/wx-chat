@@ -35,8 +35,8 @@
         "text": "地图"
       },
       {
-        "selectedIconPath": "images/shouye_click.png",
-        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/jishi_click.png",
+        "iconPath": "images/jishi.png",
         "pagePath": "pages/timing/timing",
         "text": "计时"
       }

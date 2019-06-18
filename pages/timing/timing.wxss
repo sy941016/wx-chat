@@ -35,7 +35,3 @@ page{
   align-items: flex-end;
   font-size: 24rpx;
 }
-button{
-  background: green;
-  color:#ffff;
-}

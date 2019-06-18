@@ -1,9 +1,9 @@
 <view class='container'>
   <!--report-submit  是否返回 formId 用于发送模板消息-->
   <form report-submit="true" bindsubmit='template_Msg'>
-    <button form-type="submit" type='primary'>发送模板消息</button>
+    <button form-type="submit" type='primary'>倒计通知</button>
   </form>
-  <view class='timing-title'>距离下一轮还有</view>
+  <view class='timing-title'>倒计时开始</view>
   <view class="timing-box">
     <view class="timing">{{countDownDay}}</view>
     <view class="unit">天</view>

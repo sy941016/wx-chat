@@ -84,7 +84,7 @@ Page({
   },
   onReady: function() {
     //倒计的秒数
-    var totalSecond = Date.parse(new Date("2019/06/11")) / 1000 - Date.parse(new Date()) / 1000;
+    var totalSecond = Date.parse(new Date("2019/06/20")) / 1000 - Date.parse(new Date()) / 1000;
 
     var interval = setInterval(function() {
       // 倒计的秒数
